@@ -5,8 +5,6 @@ from pyrob.api import *
 
 @task
 def task_3_3():
-    
-       
            if not wall_is_above():
                   move_up()
            elif not wall_is_beneath():
